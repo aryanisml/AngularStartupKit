@@ -1,0 +1,12 @@
+var tool = this;
+
+
+           function Product(name)
+           {
+               this.Name = name;
+           }
+
+Product.prototype.GetName = function(){ console.log(this.Name) }
+
+           tool.p1 = new Product("Mobiles");
+						tool.p2 = new Product("Laptops");           

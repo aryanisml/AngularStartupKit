@@ -1,0 +1,43 @@
+<div class="container">
+    <h3>
+        Parent Component
+    </h3>
+    <div>
+        <label>Is Visible</label>
+        <input type="checkbox" [(ngModel)]="IsVisible" style="cursor: pointer" />
+        <input type="number" [(ngModel)]="Counter" />
+        <label for="">Stock Quantity</label>
+        <input type="number" [(ngModel)]="StockModel.Qty" />
+    </div>
+    <br/>
+    <div>
+            <label for="">Stock Name</label>
+            <input type="text" [(ngModel)]="StockModel.Name" />
+            <label for="">Stock Quantity</label>
+            <input type="number" [(ngModel)]="StockModel.Qty" />
+   
+    </div>
+
+
+    <div *ngIf="IsVisible">
+        <div>
+            <web-child [counter]="Counter" [StockDetails]="StockModel">
+                <mark count>
+                    {{Counter}}
+                </mark>
+                <ul stock>
+                    <li name="Name" >
+                    </li>
+                    <li name="Qty">
+                    </li>
+                </ul>
+      </web-child>
+        </div>
+
+        <div>
+            <button (click)="NavigateToList()">
+                Navigate to Inventory List
+            </button>
+        </div>
+    </div>
+</div>

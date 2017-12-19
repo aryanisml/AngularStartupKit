@@ -1,0 +1,72 @@
+<!-- <div>
+    <div>
+        <h1>
+            {{AppName}}
+            <b>
+                {{AppVersion}}
+            </b>
+        </h1>
+    </div>
+    <div>
+        <button (click)="ToggleVersions()">Show Versions</button>
+    </div>
+
+        <ul [ngStyle]="ConditionStyle" >
+        <li *ngFor="let version of versions"  (mouseover)="HeighlightItem()" (mouseout)="UnHeighlightItem()" [ngClass]="HeightLight">
+            {{version}}
+        </li>
+    </ul>
+    <form action="">
+        <div class="form-group">
+            <label for="">Input Event </label>
+            <input type="text" [value]="NewVersion" (input)="VersionChanged($event)">
+        </div>
+
+        <div class="form-group">
+            <label for=""> Forms Module </label>
+            <input type="text" [(ngModel)]="NewVersion" name="NewVersion">
+        </div>
+        <div class="form-group">
+            <input type="button" value="Add" (click)="AddVersion()" class="btn btn-success">
+        </div>
+    </form>
+
+
+
+</div> -->
+<!-- <web-notification></web-notification>
+<web-inventory></web-inventory> -->
+
+<div class="col-xs-2">
+    <div>
+            <nav>
+                    <ul>
+                        <li>
+                            <a routerLink="">Home</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a routerLink="common">Common</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a routerLink="inventory">Inventory</a>
+                        </li>
+                    </ul>
+                </nav>
+    </div>
+    <div>
+        <router-outlet>
+           
+        </router-outlet>
+    </div>
+    <!-- 
+
+        <web-notification></web-notification>
+    <web-parent></web-parent>
+    <web-inventory></web-inventory> -->
+    <!-- <web-inventory></web-inventory> 
+     -->
+</div>

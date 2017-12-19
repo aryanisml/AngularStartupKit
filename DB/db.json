@@ -1,0 +1,118 @@
+{
+  "stocks": [
+    {
+      "Name": "asdfr",
+      "Qty": 34,
+      "isEditing": false,
+      "id": 4
+    },
+    {
+      "Name": "hg",
+      "Qty": 21,
+      "isEditing": false,
+      "id": 5
+    },
+    {
+      "Name": "adsf",
+      "Qty": 340,
+      "isEditing": false,
+      "id": 6
+    },
+    {
+      "Name": "sdf",
+      "Qty": 23,
+      "isEditing": false,
+      "id": 7
+    },
+    {
+      "Name": "swapnl",
+      "Qty": 454,
+      "isEditing": false,
+      "id": 8
+    },
+    {
+      "Name": "sadf",
+      "Qty": 232,
+      "isEditing": false,
+      "id": 9
+    },
+    {
+      "Name": "swa232",
+      "Qty": 232,
+      "isEditing": false,
+      "id": 10
+    },
+    {
+      "Name": "asdf",
+      "Qty": 66,
+      "isEditing": false,
+      "id": 11
+    },
+    {
+      "Name": "asdf",
+      "Qty": 66,
+      "isEditing": false,
+      "id": 12
+    },
+    {
+      "Name": "dsfdsf",
+      "Qty": 4545,
+      "isEditing": false,
+      "id": 13
+    },
+    {
+      "Name": "asdf232",
+      "Qty": 232,
+      "isEditing": false,
+      "id": 19
+    },
+    {
+      "Name": "sdfa",
+      "Qty": 121,
+      "isEditing": false,
+      "id": 20
+    },
+    {
+      "Name": "sdfa",
+      "Qty": 121,
+      "isEditing": false,
+      "id": 21
+    },
+    {
+      "Name": "asdfa",
+      "Qty": 322,
+      "isEditing": false,
+      "id": 22
+    },
+    {
+      "Name": "asdfa232",
+      "Qty": 32,
+      "isEditing": false,
+      "id": 23
+    },
+    {
+      "Name": "hkjh",
+      "Qty": 1251,
+      "isEditing": false,
+      "id": 24
+    },
+    {
+      "Name": "xsgh",
+      "Qty": 5454,
+      "isEditing": false,
+      "id": 25
+    },
+    {
+      "Name": "xsgh",
+      "Qty": 5454,
+      "isEditing": false,
+      "id": 26
+    },
+    {
+      "Name": "sdaf232",
+      "Qty": 1,
+      "isEditing": false,
+      "id": 27
+    }
+  ]
+}

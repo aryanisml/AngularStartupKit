@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+          var Data = 
+          [
+              {
+                  Name : "Max",
+                  City : "Pune"
+              },
+              {
+                  Name : "John",
+                  City : "Mumbai"
+              },
+              {
+                  Name : "Mick",
+                  City : "Pune"
+              }
+          ];
+
+          var list = Data.map(
+              function predicate(obj)
+              {
+                    if ( obj.City == "Pune") {
+                     obj.State='MH';   
+                    }
+                    return obj;
+              }
+          )
+
+          console.dir(list);
+
+        </script>
+    </body>
+</html>

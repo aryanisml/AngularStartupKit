@@ -1,0 +1,22 @@
+ Sender
+            this.router.navigate(
+                [
+                    'products',
+                    'list',
+                    updatedProductList.length
+                ],
+            );
+            // means:http://localhost/products/list/10'
+
+        Receiver
+
+            import { ActivatedRoute } from "@angular/router";
+
+            constructor(private activatedRoute : ActivatedRoute){}
+
+            this.activatedRoute.params.subscribe(
+                (params) => 
+                {
+                    var qty = parseInt(params);  
+                }
+            )

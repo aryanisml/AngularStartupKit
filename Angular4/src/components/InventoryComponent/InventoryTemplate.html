@@ -1,0 +1,39 @@
+<div class="container">
+    <h3>
+        Inventory Managment
+    </h3>
+
+
+
+    <div class="col-xs-2">
+            <div>
+                    <nav>
+                          
+                            <ul>
+                                <li>
+                                    <a routerLink="entry">Entry</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a routerLink="list">List</a>
+                                </li>
+                            </ul>
+                        </nav>
+            </div>
+            <div>
+                <router-outlet>
+                </router-outlet>
+            </div>
+            
+        </div>
+
+    <!-- 
+    <section>
+        
+            <web-inventory-entry (onSave)="AddStock($event)"  [onAddSucess]="validateSuccess"></web-inventory-entry>
+    </section>
+    <section>
+            <web-inventory-list [StocksList]="Stocks"   (onDeleteAction)="DeleteStock($event)"  (onUpdateAction)="UpdateStock($event)" ></web-inventory-list>
+        </section> -->
+</div>

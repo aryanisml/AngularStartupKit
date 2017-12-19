@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+          var Data = 
+          [
+              {
+                  Name : "Max",
+                  City : "Pune"
+              },
+              {
+                  Name : "John",
+                  City : "Mumbai"
+              },
+              {
+                  Name : "Mick",
+                  City : "Pune"
+              }
+          ];
+
+          var filterdList = Data.filter(
+              function predicate(obj)
+              {
+                    return obj.City == "Pune";
+              }
+          )
+
+          console.dir(filterdList);
+
+        </script>
+    </body>
+</html>

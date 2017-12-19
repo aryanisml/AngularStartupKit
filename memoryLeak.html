@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+           var obj = 
+           {
+               Data : [],
+               
+               AddData : function(newItem)
+               {
+                    setTimeout(
+                        function()
+                        {
+                            this.Data = [newItem];
+                            //this.Data.push(newItem);
+                        },
+                        5000
+                    )   
+               }
+           };
+           
+           obj.AddData("abc");
+           console.dir(obj);
+         
+        </script>
+    </body>
+</html>

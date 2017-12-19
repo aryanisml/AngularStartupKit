@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+            class Product
+            {
+                constructor(name)
+                {
+                    this.Name = name;
+                }
+
+                GetName()
+                {
+                    console.log("GetName123");
+                }
+            }
+
+            class Electronics extends Product
+            {
+                constructor(name,id)
+                {
+                    super(name);
+                    //Product.call(this,name)
+                    super.GetName();
+
+                    this.Serial = id;
+
+                    var _uid = new Date().toLocaleTimeString();
+
+                    this.GetUid = function()
+                    {
+                        return _uid;
+                    }
+                }
+
+                GetSerial()
+                {
+                    
+                }
+
+            }
+
+           var e1 = new Electronics("Mobile","ABC");
+          //  e1.GetName();
+            console.log( e1.GetUid() );
+            console.log( e1._uid );
+
+        </script>
+    </body>
+</html>

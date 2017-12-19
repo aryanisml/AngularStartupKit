@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+            function F1()
+            {
+                console.log("Before");
+
+                setTimeout(
+                    function()
+                    {
+                        console.log("Timer Ticked");
+                    },
+                    5000
+                )
+
+                for(var count = 0; count < 1000000; count++)
+                {
+                    // 10 Seconds
+                }
+
+                console.log("After");
+            }
+
+            F1();
+
+        </script>
+    </body>
+</html>

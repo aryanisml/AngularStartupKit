@@ -1,0 +1,25 @@
+const obj={
+    Name ="max";
+}
+
+//allow
+obj.Name="swapnil";
+
+//error
+obj={};
+
+spread always create the shallow copy.
+
+
+Rest opeator
+function getData(...parms){
+
+}getData(10,20,30)
+
+
+ES6
+arrow function closure will take care
+
+MAP & SET unique values in SET;
+
+Zone js allow monkey patching.

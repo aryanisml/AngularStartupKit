@@ -1,0 +1,11 @@
+<div class="container">
+    <h3>
+        Inventory Managment
+    </h3>
+    <section>
+        <web-inventory-entry (onSave)="AddStock($event)"  [onAddSucess]="validateSuccess"></web-inventory-entry>
+    </section>
+    <section>
+            <web-inventory-list [StocksList]="Stocks"  (onDeleteAction)="DeleteStock($event)"  (onUpdateAction)="UpdateStock($event)" ></web-inventory-list>
+        </section>
+</div>

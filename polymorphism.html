@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+
+           function Log(arg)
+           {
+                console.log("Logged: " + arg);
+           }
+
+           function Dump()
+           {
+                console.log("Dumped: " + arg);
+           }
+
+           function Compute(arg,cb)
+           {
+               cb(arg);
+           }
+
+           Compute( 10 , Dump );
+
+        </script>
+    </body>
+</html>
